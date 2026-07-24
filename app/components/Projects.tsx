@@ -114,7 +114,7 @@ const projectsData: Project[] = [
     id: "p1",
     name: "InfoBeatLive Schools",
     tagline: "Multi-Tenant Enterprise Portal for K-12 Institutional Management",
-    videoLink: "https://www.youtube.com/watch?v=xWrhco8HQGo",
+    videoLink: "https://www.youtube.com//embed/xWrhco8HQGo",
     description: "Architected a multi-tenant SaaS ecosystem serving 57+ educational institutions in West Africa. Built for high-density transactional loads, automated report card compilation, automated billing gateways, and real-time attendance streaming.",
     architectureCategory: "SaaS Platform",
     archFocus: "Isolated Multi-Tenancy, Automated Billing Gateways & Async PDF Generation",

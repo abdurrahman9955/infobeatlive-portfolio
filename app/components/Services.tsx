@@ -26,7 +26,6 @@ const servicesData = [
   { title: "Mobile App APIs", icon: Smartphone, desc: "Developing reliable backend infrastructure to power responsive mobile applications." },
 ];
 
-// --- SHARED UI COMPONENTS (Simulating /components/ui) ---
 
 const SectionHeading = ({ title, subtitle }: { title: string, subtitle?: string }) => (
   <div className=" mb-6">

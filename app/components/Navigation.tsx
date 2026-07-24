@@ -47,7 +47,7 @@ export const Navigation = () => {
 
         <a href={`#${'home'}`}>  
         <div  className="text-xl font-bold text-white cursor-pointer flex items-center gap-2"
-          //onClick={() => handleNav('home')}
+         
           >
           <div className="w-9 h-9 bg-amber-500 rounded flex items-center justify-center text-slate-950 font-black">A</div>
             <div>
@@ -62,7 +62,7 @@ export const Navigation = () => {
             
             <button 
               key={item.route}
-              //onClick={() => handleNav(item.route)}
+           
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors 
                 ${item.route === item.route ? 'text-slate-300 hover:text-white hover:bg-slate-800' : 'text-slate-300 hover:text-white hover:bg-slate-800'}`}
             >
@@ -94,7 +94,7 @@ export const Navigation = () => {
             {['home', 'about', 'services', 'experience', 'projects', 'education', 'causes', 'skills', 'process', 'testimonials', 'faq', 'blog', 'contact'].map(route => (
               <button 
                 key={route}
-                //onClick={() => handleNav(route as Route)}
+               
                 className={`text-left px-4 py-3 rounded-lg capitalize font-medium ${route === route ? 'text-slate-300' : 'text-slate-300'}`}
               >
                   <a href={`#${route}`}> {route} </a>
