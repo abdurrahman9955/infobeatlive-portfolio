@@ -52,7 +52,7 @@ export const Navigation = () => {
           <div className="w-9 h-9 bg-amber-500 rounded flex items-center justify-center text-slate-950 font-black">A</div>
             <div>
              <p className='text-sm'>Abdurrahman Sale</p>
-             <p className='text-sm text-yellow-600'>Senior Web Developer</p>
+             <p className='text-xs text-yellow-600'>Senior Backend Developer</p>
             </div>
         </div></a>
 
