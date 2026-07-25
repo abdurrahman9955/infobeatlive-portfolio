@@ -91,12 +91,12 @@ export const Navigation = () => {
             initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }}
             className="md:hidden absolute top-20 left-0 w-full bg-slate-900 border-b border-slate-800 shadow-2xl py-4 px-6 flex flex-col gap-2"
           >
-            {['home', 'about', 'services', 'experience', 'projects', 'education', 'causes', 'skills', 'process', 'testimonials', 'faq', 'blog', 'contact'].map(route => (
+            {['home', 'about', 'services', 'experience', 'projects', 'education', 'causes', 'skills'].map(route => (
               <button 
                 key={route}
-               
-                className={`text-left px-4 py-3 rounded-lg capitalize font-medium ${route === route ? 'text-slate-300' : 'text-slate-300'}`}
-              >
+                onClick={() => setIsOpen(!isOpen)}
+                className={`text-left px-4 py-3 rounded-lg capitalize font-medium 
+                ${route === route ? 'text-slate-300' : 'text-slate-300'}`}>
                   <a href={`#${route}`}> {route} </a>
               </button>
             ))}

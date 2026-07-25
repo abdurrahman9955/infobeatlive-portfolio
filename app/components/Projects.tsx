@@ -100,7 +100,7 @@ const projectsData: Project[] = [
       { label: "LLM Response", value: "1.2s", subtext: "Streamed Response", status: "positive" }
     ],
     techStack: ["TypeScript", "Next.js", "Tailwind CSS", "Prisma", "PostgreSQL", "Redis", "Node.js", "Express", "AWS", "Lemon Squeezy", "Docker", "Gemini API", "OpenAI API"],
-    liveDemo: "https://analytics.infobeatlive.site",
+    liveDemo: "https://analytics.infobeatlive.site/dashboard/demo/instance/main",
     githubFrontend: "https://github.com/abdurrahman9955/infobeatlive-frontend",
     githubBackend: "https://github.com/abdurrahman9955/infobeatlive-backend",
     users: "6,000+",
@@ -147,7 +147,7 @@ const projectsData: Project[] = [
       { label: "API SLA", value: "99.95%", subtext: "Uptime Guaranteed", status: "positive" }
     ],
     techStack: ["TypeScript", "Next.js", "Tailwind CSS", "Prisma", "PostgreSQL", "Redis", "Node.js", "Express", "Socket.io", "GCP", "Lemon Squeezy", "Docker"],
-    liveDemo: "https://school.infobeatlive.site",
+    liveDemo: "https://school.infobeatlive.site/dashboard/main",
     githubFrontend: "https://github.com/abdurrahman9955/AdvertConnectPro/tree/main/advertFrontend",
     githubBackend: "https://github.com/abdurrahman9955/AdvertConnectPro/tree/main/advertBackend",
     users: "57 active schools",
