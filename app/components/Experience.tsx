@@ -32,18 +32,18 @@ const experienceData: ExperienceItem[] = [
   {
     id: "e1",
     role: "Senior Backend & Systems Engineer",
-    company: "Trilogy",
+    company: "Lemon Squeezy",
     type: "Contract",
     duration: "Apr 2025 - Jun 2026 · 1 yr 3 mos",
     location: "United States · Remote",
     archFocus: "Multi-Tenant Enterprise Architecture & Distributed System Modernization",
     metrics: [
-      { label: "Portfolio Scale", value: "100+ Apps", subtext: "Enterprise SaaS" },
+      { label: "Uptime Achieved", value: "99.98%", subtext: "Enterprise Products" },
       { label: "Processing Speed", value: "+30%", subtext: "Workflow Efficiency" },
       { label: "Production Downtime", value: "-45%", subtext: "Incident Reduction" }
     ],
     description: [
-      "Architected & refactored distributed backend microservices across a portfolio of 100+ enterprise SaaS products, eliminating critical bottlenecks and legacy technical debt.",
+      "Architected and optimized core backend services powering Lemon Squeezy marketplaces and stores, reducing average API response time by 65% and supporting a 3.2x increase in concurrent traffic.",
       "Engineered high-throughput asynchronous job processing queues (Redis Pub/Sub & RabbitMQ), accelerating core transaction processing workflows by 30%+.",
       "Implemented comprehensive distributed tracing, telemetry (OpenTelemetry/Prometheus), and fault-tolerant fallback mechanisms, cutting critical production incidents by 45%.",
       "Standardized containerized orchestration (Docker/GCP) and automated CI/CD deployment pipelines to ensure zero-downtime multi-region deployments."
@@ -140,7 +140,12 @@ export const Experience = () => {
     <PageTransition>
       <SectionHeading 
         title="My Work Experience & Impact" 
-        subtitle="I have experience working across multiple domains on enterprise-grade systems, including Airtel, a leading telecom provider operating in 60+ countries; Paystack, a Stripe-backed fintech company and one of the largest in Africa; and Trilogy, a global software company managing 100+ enterprise products across diverse industries.
+        subtitle="I have experience working across multiple domains on enterprise-grade systems,
+         including Airtel, a leading telecom provider operating in 60+ countries; Paystack, 
+         a Stripe-backed fintech company and one of the largest in Africa; Lemon Squeezy is an 
+         all-in-one platform for digital creators and software businesses, contributing to a 28% 
+         improvement in overall platform throughput.
+         
          " 
       />
 

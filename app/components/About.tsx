@@ -7,7 +7,7 @@ import Image from 'next/image';
 const developerData = {
   name: "Abdurrahman Sale",
   role: "Senior Software Developer",
-  email: "abdurrahman.sale@infobeatlive.com",
+  email: "abdurrahmansale4455@gmail.com",
   location: "Nigeria",
   shortBio: "Building scalable, high-performance systems that solve real business problems across telecom, fintech, and enterprise software.",
 };
@@ -207,10 +207,16 @@ export const About = () => {
                   <div className="p-5 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-slate-700 transition-colors">
                     <div className="flex items-center justify-between mb-2">
                       <span className="text-xs font-mono font-bold text-amber-400">ENTERPRISE REFACTORING</span>
-                      <span className="text-xs text-slate-500 font-mono">Trilogy (US)</span>
+                      <span className="text-xs text-slate-500 font-mono">Lemon Sqeezy</span>
                     </div>
                     <p className="text-sm text-slate-300">
-                      Modernized legacy codebases across <strong className="text-white">100+ enterprise SaaS products</strong>. Refactored high-latency database queries, overhauled distributed microservices, and reduced critical system downtime for global corporate clients.
+                       
+
+                        Designed scalable data pipelines and marketplace APIs that enabled faster store creation and 
+                        real-time inventory sync, <strong className="text-white">contributing to a 28% improvement
+                          </strong> in overall platform throughput,
+                        Built high-reliability payment and checkout systems for digital product stores, achieving 99.98% 
+                        uptime and cutting transaction failure rates by 41%.
                     </p>
                   </div>
 
@@ -360,8 +366,8 @@ export const About = () => {
                     </div>
 
                     <div className="p-3 rounded-lg bg-slate-950 border border-slate-800 flex items-center justify-between">
-                      <span className="text-slate-400">Trilogy Legacy Modernization</span>
-                      <span className="text-blue-400 font-bold">100+ Products Maintained</span>
+                      <span className="text-slate-400">Lemon Sqeezy Market Place</span>
+                      <span className="text-blue-400 font-bold">Contributing to a 28% improvement</span>
                     </div>
 
                     <div className="p-3 rounded-lg bg-slate-950 border border-slate-800 flex items-center justify-between">

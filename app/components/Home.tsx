@@ -8,7 +8,7 @@ Activity, Cpu, Zap, ArrowUpRight, Layers, TrendingUp, Sparkles } from 'lucide-re
 const developerData = {
   name: "Abdurrahman Sale",
   role: "Senior Software Developer",
-  email: "abdurrahman.sale@infobeatlive.com",
+  email: "abdurrahmansale4455@gmail.com",
   location: "Nigeria",
   shortBio: "Building scalable, high-performance systems that solve real business problems across telecom, fintech, and enterprise software.",
 };
@@ -83,8 +83,9 @@ export const Home = () => {
           type: 'res',
           output: (
             <p className="text-slate-300">
-              <span className="text-amber-400 font-semibold">Abdurrahman Sale</span> — Senior Backend & Systems Developer based in Nigeria. 
-              6+ years engineering enterprise-grade platforms across Telecom (Airtel), Fintech (Paystack / Stripe), and US Enterprise SaaS portfolios (Trilogy).
+              <span className="text-amber-400 font-semibold">Abdurrahman Sale</span> — Senior Backend & Systems Developer. 
+              6+ years engineering enterprise-grade platforms across Telecom (Airtel), Fintech (Paystack / Stripe), 
+              and Lemon Sqeezy Market Place (Lemon Sqeezy).
             </p>
           )
         });
@@ -96,7 +97,8 @@ export const Home = () => {
           output: (
             <div className="text-slate-300 space-y-1">
               <p><strong className="text-amber-400">Languages:</strong> TypeScript, JavaScript, Python, SQL, HTML/CSS</p>
-              <p><strong className="text-amber-400">Backend & Runtime:</strong> Node.js, Express, Django REST Framework, Flask, FastAPIs</p>
+              <p><strong className="text-amber-400">Backend & Runtime:</strong> Node.js, Express, Django REST Framework,
+               Flask, FastAPIs</p>
               <p><strong className="text-amber-400">Databases & Cache:</strong> PostgreSQL, MongoDB, Redis, DynamoDB</p>
               <p><strong className="text-amber-400">Cloud & Infra:</strong> AWS (EC2, S3), GCP, Docker, CI/CD, Microservices</p>
             </div>
@@ -143,7 +145,8 @@ export const Home = () => {
           type: 'res',
           output: (
             <p className="text-slate-300">
-              Pattern: Event-driven Microservices & Distributed Caching. Stack: Node.js/TypeScript + PostgreSQL + Redis PubSub + AWS ECS/GCP + Docker + API Gateways + WebSockets.
+              Pattern: Event-driven Microservices & Distributed Caching. 
+              Stack: Node.js/TypeScript + PostgreSQL + Redis PubSub + AWS ECS/GCP + Docker + API Gateways + WebSockets.
             </p>
           )
         });
@@ -197,10 +200,10 @@ export const Home = () => {
       description: "Scaled backend core infrastructure driving My Airtel App, KYC Agile, and DealCode. Supported a 5x regional subscriber growth from 5,000 to 25,000 while maintaining tight data consistency."
     },
     saas: {
-      title: "Enterprise Portfolio Modernization (Trilogy US)",
+      title: "Lemon Sqeezy (Handle Global Payments)",
       metrics: { latency: "18ms", load: "100+ Systems", uptime: "99.99%" },
       tech: ["TypeScript", "PostgreSQL", "Node.js", "GCP", "Python", "Docker", "Microservices"],
-      description: "Architected legacy refactoring for over 100 enterprise SaaS products. Reduced system bottlenecks, eradicated critical debt, and accelerated continuous deployment across distributed global teams."
+      description: "Designed scalable data pipelines and marketplace APIs that enabled faster store creation and real-time inventory sync, contributing to a 28% improvement in overall platform throughput."
     }
   };
 
@@ -360,7 +363,7 @@ export const Home = () => {
                   <span className="text-slate-300 uppercase tracking-wider text-[10px] font-bold"> Proven Track Record:</span>
                   <div className="flex items-center gap-2 bg-slate-900/80 px-3 py-1.5 rounded-md border border-slate-800">
                     <span className="w-2 h-2 rounded-full bg-amber-500"></span>
-                    <strong className="text-slate-200">Trilogy</strong> (US Enterprise Software)
+                    <strong className="text-slate-200">Lemon Sqeezy</strong> (Handle Global Payments)
                   </div>
                   <div className="flex items-center gap-2 bg-slate-900/80 px-3 py-1.5 rounded-md border border-slate-800">
                     <span className="w-2 h-2 rounded-full bg-blue-400"></span>
